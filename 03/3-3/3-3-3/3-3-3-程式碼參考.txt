@@ -1,0 +1,40 @@
+https://www.smartmenus.org/
+
+
+
+<!--/////////////////////////////////////////////////////////////-->
+
+
+<link href="jquery.smartmenus.bootstrap-4.css" rel="stylesheet">
+
+<!--/////////////////////////////////////////////////////////////-->
+
+
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="jquery.smartmenus.js"></script>
+
+<!-- SmartMenus jQuery Bootstrap 4 Addon -->
+<script type="text/javascript" src="jquery.smartmenus.bootstrap-4.js"></script>
+
+
+<!--/////////////////////////////////////////////////////////////-->
+
+
+ <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" >SmartMenu</a>
+			<ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">SmartMenu 1</a></li>
+                <li><a class="dropdown-item" href="#">SmartMenu 2</a></li>
+                <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">SmartMenu 3</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">SmartMenu 3-1</a></li>
+						<li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#">SmartMenu 3-2</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">SmartMenu 3-2-1</a></li>
+								<li><a class="dropdown-item" href="#">SmartMenu 3-2-2</a></li>
+								<li><a class="dropdown-item" href="#">SmartMenu 3-2-3</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>	
+			</ul>	
+		  </li>	

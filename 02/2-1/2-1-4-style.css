@@ -1,0 +1,76 @@
+@charset "utf-8";
+.menu {
+    margin: 50px;
+    padding: 20px;
+    width: 300px;
+    background-color: #C6D9CD;
+    border-radius: 5px;
+    border: 1px solid #A74446;
+    -webkit-box-shadow: 1px 1px 10px #EDC5C5;
+    box-shadow: 1px 1px 10px #EDC5C5;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    list-style-type: none;	
+}
+.menu ul li a{
+    background-color: rgba(173,173,173,0.40);
+    display: block;
+    margin-top: 5px;
+    padding-left: 30px;
+    text-decoration: none;
+    line-height: 50px;
+    background-image: url(images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-family: "微軟正黑體";
+    border-radius: 0px;
+    color: #ECA04B;
+}
+.menu ul li a:hover{
+    color: #B7532C;
+    background-color: #E5DCA0;
+    background-position: 20px center;
+    border-radius: 50px;
+    padding-left: 40px;
+}
+.h-menu {
+    background-color: #DADADA;
+}
+.hmenu-inner {
+    height: 50px;
+    width: 906px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFE8E8;
+    background-image: linear-gradient(180deg,rgba(243,221,221,1.00) 0%,rgba(255,166,166,1.00) 48.19%,rgba(255,150,150,1.00) 48.19%,rgba(231,213,213,1.00) 100%);
+}
+.hmenu-inner ul{
+    padding: 0;
+    margin: 0;
+}
+.hmenu-inner ul li{
+    float: left;
+    list-style-type: none;
+}
+.hmenu-inner ul li a{
+    width: 150px;
+    display: block;
+    color: #9A856E;
+    font-family: "微軟正黑體";
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    border-right-width: 1px;
+    border-right-style: dashed;
+	transition: all 0.5s ease-out;/*1.啟動轉變*/
+}
+.hmenu-inner ul li a:hover{
+    background-color: #EC5356;
+    color: azure;
+    font-size: 18px;
+	transform: translateY(-5px);
+}

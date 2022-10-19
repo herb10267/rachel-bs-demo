@@ -1,0 +1,64 @@
+@charset "utf-8";
+p {
+    color: #07708E;
+    font-family: "微軟正黑體";
+    font-size: 11pt;
+    line-height: 1.5em;
+    text-align: justify;
+	margin: 0;
+    /*padding-top: 8px;
+    padding-right: 30px;
+    padding-left: 50px;*/
+	padding: 8px 30px 0px ; 
+    
+}
+h3{
+    padding-left: 20px;
+    color: #014977;
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    background-image: url(images/icon.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: #445C13;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-shadow: 3px 3px 5px #999999;
+}
+.container {
+    padding: 30px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    border-width: 1px;
+    border-color: #000000;
+    background-image: linear-gradient(113deg,rgba(247,191,192,1.00) 0%,rgba(255,196,196,1.00) 22.80%,rgba(135,131,131,1.00) 59.59%,rgba(166,163,163,1.00) 100%);
+}
+.text-bgcolor{
+    color: #A8CBA7;
+    background-color: #757CA0;
+}
+.text-underline{
+    color: #D8CDD6;
+    text-decoration: underline;
+}
+.container p #pic {
+    float: left;
+    border: 1px solid #2578A0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    -webkit-box-shadow: inset 1px 0px 10px #014156;
+    box-shadow: inset 1px 0px 10px #014156;
+    opacity: 0.7;
+	transform: translateY(10px)rotate(3deg)scale(0.8)
+}

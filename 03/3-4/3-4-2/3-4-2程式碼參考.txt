@@ -1,0 +1,125 @@
+			<img src="images/photo.jpg" class="card-img-top" alt="">
+			<div class="card-body">
+				<h5 class="card-title">Card title</h5>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+		    <div class="card-body">
+				<a href="#" class="card-link">Card link</a>
+				<a href="#" class="card-link">Another link</a>
+		    </div>
+			<a href="#" class="btn btn-primary">Go somewhere</a>
+
+<!--//////////////////////////////////////////card-columns////////////////////////////////////////////////-->
+
+
+<div class="container mt-5">
+	  <div class="card-columns">
+		  <div class="card">
+			<img class="card-img-top" src="images/photo.jpg" alt="Card image cap">
+			<div class="card-body">
+			  <h5 class="card-title">Card title that wraps to a new line</h5>
+			  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		  </div>
+		  <div class="card bg-warning text-white p-3">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card bg-primary text-white text-center p-3">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card text-center">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card">
+			<img class="card-img" src="images/photo.jpg" alt="Card image">
+		  </div>
+		  <div class="card p-3 text-right">
+			  <div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card bg-light">
+			<div class="card-body">
+			  <h5 class="card-title">Card title</h5>
+			  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		</div>
+    </div>
+
+
+
+<!--////////////////////////////////////////////card-deck//////////////////////////////////////////////-->
+
+
+
+
+
+<div class="container mt-5">
+	  	<div class="card-deck">
+		  <div class="card bg-primary text-white">
+			<div class="card-body text-center">
+			   <h5 class="card-title">Card title 1</h5>
+			  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+			</div>
+		  </div>
+		  <div class="card bg-warning text-white">
+			<div class="card-body text-center">
+			  <h5 class="card-title">Card title 2</h5>
+			  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card bg-success text-white">
+			<div class="card-body text-center">
+			  <h5 class="card-title">Card title 3</h5>
+			  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+			  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+			</div>
+		  </div>
+		  <div class="card bg-danger text-white">
+			<div class="card-body text-center">
+			   <h5 class="card-title">Card title 4</h5>
+			  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+			  <p class="card-text"><small>Last updated 3 mins ago</small></p>
+			</div>
+		  </div> 
+		</div>
+	</div> 
+
+
+<!--//////////////////////////////////////////////////////////////////////////////////////////-->
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+	  <!--控制按鈕-->
+		<div class="text-center mt-2">
+				<input type="button" class="btn btn-danger start-slide" value="Start">
+				<input type="button" class="btn btn-danger pause-slide" value="Pause">
+				<input type="button" class="btn btn-warning prev-slide" value="Previous Slide">
+				<input type="button" class="btn btn-warning next-slide" value="Next Slide">
+				<input type="button" class="btn btn-info slide-one" value="Slide 1">
+				<input type="button" class="btn btn-info slide-two" value="Slide 2">            
+				<input type="button" class="btn btn-info slide-three" value="Slide 3">
+	    </div>
+
+
+
+
+	<script>
+	//設定播放速度
+	$('.carousel').carousel({ interval:1000 }); 
+	//開始輪播
+	$(".start-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('cycle');
+        });
+        // 停止播放
+        $(".pause-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('pause');
+        });
+        // 播放上一個
+        $(".prev-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('prev');
+        });
+        // 播放下一個
+        $(".next-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('next');
+        });
+        // 播放至指定編號內容 
+        $(".slide-one").click(function(){
+            $("#carouselExampleIndicators1").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#carouselExampleIndicators1").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#carouselExampleIndicators1").carousel(2);
+        });
+	  </script>
+

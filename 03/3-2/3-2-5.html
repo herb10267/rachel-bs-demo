@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="../../css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+  </head>
+  <body>
+  	<!-- body code goes here -->
+    <div class="container">
+	  <div class="container-fluid">
+		  <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+		    
+			<li class="nav-item"> <a class="nav-link" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Tab 1</a> </li>
+		    
+			<li class="nav-item"> <a class="nav-link active" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Tab 2</a> </li>
+			  
+			 <li class="nav-item"> <a class="nav-link" href="#paneTwo4" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Tab 4</a> </li>
+			  
+		    <!-- Dropdown -->
+		    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Tab 3 Dropdown </a>
+	    	  <div class="dropdown-menu">
+			    <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown Link 1</a> 
+			    <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown Link 2</a> 
+		      </div>
+	        </li>
+			<!-- Dropdown -->
+		    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Tab 5 Dropdown </a>
+		    	<div class="dropdown-menu">
+			      <a class="dropdown-item" href="#tabDropDown51" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown 5 Link 1</a> 
+			      <a class="dropdown-item" href="#tabDropDown52" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown 5 Link 2</a>
+				  <a class="dropdown-item" href="#tabDropDown53" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown 5 Link 3</a>
+			    </div>
+	        </li>
+			  
+	    </ul>
+		  
+	    <!-- Content Panel -->
+		  <div id="clothingnavcontent1" class="tab-content">
+		    <div role="tabpanel" class="tab-pane fade" id="home1" aria-labelledby="hometab1">
+		      <p>Content in <b>Tab Panel 1</b></p>
+	        </div>
+			  
+		    <div role="tabpanel" class="tab-pane fade show active" id="paneTwo1" aria-labelledby="hatstab1">
+		      <p>Content 2</p>
+	        </div>
+			  
+			<div role="tabpanel" class="tab-pane fade" id="paneTwo4" aria-labelledby="hatstab1">
+		      <p>Content 4</p>
+	        </div>
+			  
+		    <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+		      <p>Dropdown content#1</p>
+	        </div>
+			  
+		    <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+		      <p>Dropdown content#2</p>
+	        </div>
+			  
+			<div role="tabpanel" class="tab-pane fade" id="tabDropDown51" aria-labelledby="dropdownbootstab1">
+		      <p>Dropdown 5 content#1</p>
+	        </div>
+			  
+			<div role="tabpanel" class="tab-pane fade" id="tabDropDown52" aria-labelledby="dropdownbootstab1">
+		      <p>Dropdown 5 content#2</p>
+	        </div>
+			  
+			<div role="tabpanel" class="tab-pane fade" id="tabDropDown53" aria-labelledby="dropdownbootstab1">
+		      <p>Dropdown 5 content#3</p>
+	        </div>
+			  
+        </div><!--/tab-content-->
+	  </div><!--/tab-->
+		
+	  <hr>
+	  <div class="row text-center">
+		  <div class="col-md-3">
+      		<img src="../../images/ImgResponsive_Placeholder.png" class="img-fluid" alt="Placeholder image"> 
+		  </div>
+	    <div class="col-md-3">
+	    	<img src="../../images/ImgResponsive_Placeholder.png" class="rounded-circle img-fluid" alt="Placeholder image"> 
+		</div>
+	    <div class="col-md-3">
+	    	<img src="../../images/ImgResponsive_Placeholder.png" class="rounded img-fluid" alt="Placeholder image"> 
+		</div>
+	    <div class="col-md-3">
+	    	<img src="../../images/ImgResponsive_Placeholder.png" class="img-thumbnail img-fluid" alt="Placeholder image"> 
+		</div>
+	  </div><!--/row-->
+	  <hr>
+	  <div class="jumbotron">
+	    <h1 class="display-4">Hello, world!</h1>
+	    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+	    <hr class="my-4">
+	    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	    <p class="lead"> <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </p>
+      </div><!--/jumbotron-->
+    </div><!--/container-->
+	  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="../../js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="../../js/popper.min.js"></script> 
+  <script src="../../js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

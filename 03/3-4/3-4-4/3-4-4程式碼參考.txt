@@ -1,0 +1,43 @@
+<h3>Project Description</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
+                <h3>Project Details</h3>
+                <ul>
+                    <li>Lorem Ipsum</li>
+                    <li>Dolor Sit Amet</li>
+                    <li>Consectetur</li>
+                    <li>Adipiscing Elit</li>
+                </ul>
+
+
+
+<h2>Latest Work</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+
+
+
+
+
+Nam fringilla quis enim in eleifend. Suspendisse sed lectus mauris. Nam commodo, arcu et posuere placerat, tellus tortor dignissim eros, sit amet eleifend urna lorem sit amet nulla. Praesent sem nibh, vulputate nec congue eu, dapibus vitae augue. Suspendisse cursus urna sit amet metus porttitor, in pharetra quam feugiat. Etiam tempus euismod nulla eget pellentesque.
+
+Vestibulum laoreet molestie urna ac vehicula. Phasellus laoreet semper ipsum ac gravida. Sed in varius tortor. Nullam blandit in neque quis aliquet. Fusce volutpat pellentesque sem non convallis. Suspendisse sit amet magna pulvinar, gravida mauris eu, tincidunt massa. Nam lectus mi, viverra non quam nec, mollis malesuada dolor. Vivamus hendrerit nunc interdum turpis egestas, a lobortis odio consequat. Fusce posuere purus quis ligula faucibus lacinia. Curabitur sit amet congue dolor. Duis dapibus hendrerit nunc et gravida. Phasellus mollis, lectus quis ornare aliquam, arcu orci posuere lectus, vehicula bibendum sem ante quis lacus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam placerat nunc ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui ut felis rhoncus, vitae molestie mauris auctor. Donec pellentesque feugiat leo a adipiscing. Pellentesque quis tristique eros, sed rutrum mauris.
+
+
+Nam fringilla quis enim in eleifend. Suspendisse sed lectus mauris. Nam commodo, arcu et posuere placerat, tellus tortor dignissim eros, sit amet eleifend urna lorem sit amet nulla. Praesent sem nibh, vulputate nec congue eu, dapibus vitae augue. Suspendisse cursus urna sit amet metus porttitor, in pharetra quam feugiat. Etiam tempus euismod nulla eget pellentesque.
+
+
+
+
+	<div class="col-12 text-center">
+            <h2>Latest Work</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, et, placeat !</p>
+          </div>
+
+
+
+  <hr>
+  <footer class="text-center">
+  Copyright c Company 2019
+  </footer>
+

@@ -1,0 +1,77 @@
+@charset "utf-8";
+html, body{/*宣告使用高%單位*/
+	height:100%;
+}
+.carousel{/*最外層*/
+	height:100%;
+	}
+.carousel-item,.active,.carousel-inner  {/*其他內層*/
+	height:100%;
+}
+.fill{
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+	height:100%;
+}
+.carousel-control-prev img,.carousel-control-next img{
+	position:absolute;
+	top: 50%;
+	margin-top: -25px;/*圖高一半*/
+}
+.carousel-control-prev img{
+	right: 60%;
+}
+.carousel-control-next img{
+	left: 60%;
+}
+.carousel-caption h5{
+	font-size: 3em;
+	color: antiquewhite;
+}
+
+@media (max-width:992px){/*<992時執行此內容*/
+	.carousel-control-prev img,.carousel-control-next img{
+		transform: scale(0.8);
+	}
+	.carousel-control-prev img{
+		right: 50%;
+	}
+	.carousel-control-next img{
+		left: 50%;
+	}
+	.carousel-caption h5{
+		font-size: 2.5em;
+		color:aquamarine;
+	}
+}/**/
+@media (max-width:768px){/*<768時執行此內容*/
+	.carousel-control-prev img,.carousel-control-next img{
+		transform: scale(0.7);
+	}
+	.carousel-control-prev img{
+		right: 40%;
+	}
+	.carousel-control-next img{
+		left: 40%;
+	}
+	.carousel-caption h5{
+		font-size: 2em;
+		color:cadetblue;
+	}
+}/**/
+@media (max-width:480px){/*<480時執行此內容*/
+	.carousel-control-prev img,.carousel-control-next img{
+		transform: scale(0.6);
+	}
+	.carousel-control-prev img{
+		right: 30%;
+	}
+	.carousel-control-next img{
+		left: 30%;
+	}
+	.carousel-caption h5{
+		font-size: 1.5em;
+		color:greenyellow;
+	}
+}/**/

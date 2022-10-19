@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	
+  </head>
+  <body style="padding-top: 70px">
+  	<!-- body code goes here -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+          <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+        </ul>
+      </div>
+  </nav>
+    <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+	    
+		<ol class="carousel-indicators">
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+	      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+		  <li data-target="#carouselExampleIndicators1" data-slide-to="3"></li>
+		  <li data-target="#carouselExampleIndicators1" data-slide-to="4"></li>
+        </ol>
+		
+      <div class="carousel-inner" role="listbox">
+	      
+		  <div class="carousel-item active"> <img class="d-block mx-auto" src="../../../images/Carousel_Placeholder.png" alt="First slide">
+	        <div class="carousel-caption">
+	          <h5>First slide Heading</h5>
+	          <p>First slide Caption</p>
+            </div>
+          </div>
+			
+	      <div class="carousel-item"> <img class="d-block mx-auto" src="../../../images/Carousel_Placeholder.png" alt="Second slide">
+	        <div class="carousel-caption">
+	          <h5>Second slide Heading</h5>
+	          <p>Second slide Caption</p>
+            </div>
+          </div>
+			
+        <div class="carousel-item"> <img class="d-block mx-auto" src="../../../images/Carousel_Placeholder.png" alt="Third slide">
+	        <div class="carousel-caption">
+	          <h5>Third slide Heading</h5>
+	          <p>Third slide Caption</p>
+            </div>			  
+        </div><!--/carousel-item-->
+			
+		<div class="carousel-item"> <img class="d-block mx-auto" src="../../../images/Carousel_Placeholder.png" alt="Third slide">
+	        <div class="carousel-caption">
+	          <h5>4 slide Heading</h5>
+	          <p>4 slide Caption</p>
+            </div>			  
+        </div><!--/carousel-item-->
+		  
+		<div class="carousel-item"> <img class="d-block mx-auto" src="../../../images/Carousel_Placeholder.png" alt="Third slide">
+	        <div class="carousel-caption">
+	          <h5>5 slide Heading</h5>
+	          <p>5 slide Caption</p>
+            </div>			  
+        </div><!--/carousel-item-->
+        </div><!--/carousel-inner-->
+		
+	    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
+		<a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> 
+		
+	</div><!--/carousel-->
+	
+	<!--控制按鈕-->
+		<div class="text-center mt-2">
+				<input type="button" class="btn btn-danger start-slide" value="Start">
+				<input type="button" class="btn btn-danger pause-slide" value="Pause">
+				<input type="button" class="btn btn-warning prev-slide" value="Previous Slide">
+				<input type="button" class="btn btn-warning next-slide" value="Next Slide">
+				<input type="button" class="btn btn-info slide-one" value="Slide 1">
+				<input type="button" class="btn btn-info slide-two" value="Slide 2">            
+				<input type="button" class="btn btn-info slide-three" value="Slide 3">
+			 	<input type="button" class="btn btn-info slide-four" value="Slide 4">            
+				<input type="button" class="btn btn-info slide-five" value="Slide 5">
+	    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.4.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+	  
+	<script>
+	//設定播放速度
+	$('.carousel').carousel({ interval:1000 }); 
+	//開始輪播
+	$(".start-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('cycle');
+        });
+        // 停止播放
+        $(".pause-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('pause');
+        });
+        // 播放上一個
+        $(".prev-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('prev');
+        });
+        // 播放下一個
+        $(".next-slide").click(function(){
+            $("#carouselExampleIndicators1").carousel('next');
+        });
+        // 播放至指定編號內容 
+        $(".slide-one").click(function(){
+            $("#carouselExampleIndicators1").carousel(0);
+        });
+        $(".slide-two").click(function(){
+            $("#carouselExampleIndicators1").carousel(1);
+        });
+        $(".slide-three").click(function(){
+            $("#carouselExampleIndicators1").carousel(2);
+        });
+		$(".slide-four").click(function(){
+            $("#carouselExampleIndicators1").carousel(3);
+        });
+		$(".slide-five").click(function(){
+            $("#carouselExampleIndicators1").carousel(4);
+        });
+	  </script>
+
+  </body>
+</html>
