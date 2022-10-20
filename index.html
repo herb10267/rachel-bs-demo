@@ -7,17 +7,284 @@
     <title>Untitled Document</title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
-	
+	<link href="fontawesome-free-6.1.1-web/css/all.css" rel="stylesheet" type="text/css"><!--字體符號CSS-->
+	<link href="css/style.css" rel="stylesheet" type="text/css"><!--自己的CSS-->
   </head>
-  <body>
+  <body id="page-top">
   	<!-- body code goes here -->
+	<!-- Side Menu -->
+    <a id="menu-toggle" href="#" class="btn btn-danger btn-lg">
+		<span class="fa fa-bars"></span></a>
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right">
+				 <span class="fa fa-times"></span></a>
+            <li class="sidebar-brand page-scroll"><a href="#page-top">Navbar</a></li>
+            <li class="page-scroll"><a href="#page-top">Home</a></li>
+            <li class="page-scroll"><a href="#about">About</a></li>
+            <li class="page-scroll"><a href="#services">Services</a></li>
+            <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+            <li class="page-scroll"><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <!-- /Side Menu -->
+	  
+	<!-- Full Page Image Header Area -->
+    <div id="top" class="header">
+        <div class="vert-text">
+            <h1>Start Bootstrap</h1>
+            <h3>We Build Great Templates,You Make Them Better</h3>
+            <a href="#about" class="btn btn-warning btn-lg">Find Out More</a>
+        </div>
+    </div>
+	  
+	<!-- Intro -->
+    <div id="about" class="intro">
+      <div class="container">
+        <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2>About us</h2>
+                    <hr>
+                </div>
+          </div><!--/row-->
+			<div class="container-fluid">
+				<ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+					<li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Tab 1</a> </li>
+					
+					<li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Tab 2</a> </li>
+					
+					<li class="nav-item"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Tab 3</a> </li>
+					
+					<li class="nav-item"> <a class="nav-link" href="#paneTwo3" role="tab" id="hatstab3" data-toggle="tab" aria-controls="hats">Tab 4</a> </li>
+					
+			    </ul>
+				  <!-- Content Panel -->
+				  <div id="clothingnavcontent1" class="tab-content">
+					<div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+					    <p>Content in <b>Tab Panel 1</b></p>
+						<div class="media">
+						   <img class="mr-3" src="img/pic1.jpg" alt="Generic placeholder image">
+						   <div class="media-body">
+							  <h5 class="mt-0">Media heading 1</h5>
+							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						   </div>
+						</div><!--media-->
+					</div><!--tab-pane-->
+					  
+					<div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+					  <p>Content 2</p>
+						<div class="media">
+						   <img class="mr-3" src="img/pic2.jpg" alt="Generic placeholder image">
+						   <div class="media-body">
+							  <h5 class="mt-0">Media heading 2</h5>
+							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						   </div>
+						</div><!--media-->
+					</div><!--tab-pane-->
+					  
+					<div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+					  <p>Content 3</p>
+						<div class="media">
+						   <img class="mr-3" src="img/pic3.jpg" alt="Generic placeholder image">
+						   <div class="media-body">
+							  <h5 class="mt-0">Media heading 3</h5>
+							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						   </div>
+						</div><!--media-->
+					</div><!--tab-pane-->
+					  
+					<div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab3">
+					  <p>Content 4</p>
+						<div class="media">
+						   <img class="mr-3" src="img/profile.png" alt="Generic placeholder image">
+						   <div class="media-body">
+							  <h5 class="mt-0">Media heading 4</h5>
+							  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+						   </div>
+						</div><!--media-->
+					</div><!--tab-pane-->
+					  
+			  	  </div><!--/tab-content-->
+			  </div><!--/tab-->
+        </div><!--/container-->
+    </div><!-- /Intro -->
+	<!-- Callout -->
+    <div class="callout2">
+        <div class="vert-text">
+            <h1>A Dramatic Text Area</h1>
+        </div>
+    </div>
+    <!-- /Callout -->
+	<!-- Services -->
+    <div id="services" class="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2>Our Services</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-umbrella"></span>
+                        <h5>Spacecraft Repair</h5>
+                        <p>Did your navigation system shut down in the middle of that asteroid field? We can repair any dings and scrapes to your spacecraft!</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-school"></span>
+                        <h5>Blacksmithing</h5>
+                        <p>Planning a time travel trip to the middle ages? Preserve the space time continuum by blending in with period accurate armor and weapons.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="service-item">
+                        <span class="service-icon fa fa-pencil-ruler"></span>
+                        <h5>Sharpening</h5>
+                        <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+                    </div>
+                </div>
 
-
+            </div>
+        </div>
+    </div><!-- /Services --> 
+	<!-- Portfolio -->
+    <div id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2>Our Work</h2>
+                    <hr>
+                </div>
+          </div>
+        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: transparent">
+              <!--<ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+              </ol>-->
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active"> 
+				  <div class="row">
+				    <div class="col-sm-5 offset-sm-1">
+						<img src="img/portfolio-1.jpg" class="img-thumbnail img-fluid" alt="Placeholder image"> 
+				    </div>
+				    <div class="col-sm-5">
+						<h5>carousel-item 1.</h5>
+                        <p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+				    </div>
+				  </div>
+                </div><!--/carousel-item-->
+                <div class="carousel-item"> 
+			    	<div class="row">
+						<div class="col-sm-5 offset-sm-1">
+							<img src="img/portfolio-2.jpg" class="img-thumbnail img-fluid" alt="Placeholder image"> 
+						</div>
+						<div class="col-sm-5">
+							<h5>carousel-item 2.</h5>
+							<p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+						</div>
+				    </div>
+                </div><!--/carousel-item-->
+				  
+                <div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-5 offset-sm-1">
+							<img src="img/portfolio-3.jpg" class="img-thumbnail img-fluid" alt="Placeholder image"> 
+						</div>
+						<div class="col-sm-5">
+							<h5>carousel-item 3.</h5>
+							<p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+						</div>
+				    </div><!--/row-->
+                </div><!--/carousel-item-->
+				  
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-5 offset-sm-1">
+							<img src="img/portfolio-4.jpg" class="img-thumbnail img-fluid" alt="Placeholder image"> 
+						</div>
+						<div class="col-sm-5">
+							<h5>carousel-item 4.</h5>
+							<p>We've been voted the best pencil sharpening service for 10 consecutive years. If you have a pencil that feels dull, we'll get it sharp!</p>
+						</div>
+				    </div><!--/row-->
+                </div><!--/carousel-item-->
+				  
+          </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> 
+			  <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+        </div><!-- container end --> 
+    </div><!-- /Portfolio --> 
+	  
+	<!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 offset-md-3 text-center">
+                    <h2>Our Location</h2>
+                    <hr>
+                </div>
+            </div>
+       </div>
+    </div>
+ 
+    <div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14455.478010203347!2d121.5248102!3d25.0724118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7a40c3880c03a171!2z6Ie65YyX5biC56uL576O6KGT6aSo!5e0!3m2!1szh-TW!2stw!4v1666157652049!5m2!1szh-TW!2stw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+ 	<!-- /contact -->
+	
+	<!-- Callout -->
+    <div class="callout">
+        <div class="vert-text">
+            <h1>A Dramatic Text Area</h1>
+        </div>
+    </div>
+    <!-- /Callout -->
+	  
+	<!-- Footer -->
+    <div class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <span>Copyright © 2019 Company Name.</span>
+                </div> 
+                <div class="col-md-6 col-sm-6 ">
+                    <ul class="social">
+                        <li><a href="#" class="fas fa-ambulance"></a></li>
+                        <li><a href="#" class="fas fa-cloud-sun"></a></li>
+                        <li><a href="#" class="fas fa-democrat"></a></li>
+                        <li><a href="#" class="fas fa-bicycle"></a></li>
+                        <li><a href="#" class="fas fa-dolly-flatbed"></a></li>
+                    </ul>
+                </div> 
+            </div>
+        </div> 
+	</div>
+    <!-- /Footer -->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 	<script src="js/jquery-3.4.1.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.4.1.js"></script>
+	<!--右上導覽按鈕-->
+	<script>
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    </script>
+	  
+	<script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
   </body>
 </html>
